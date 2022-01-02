@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
+    <!-- heading section -->
     <header>
       <div class="left">
         <p class="name">Iulian</p>
@@ -16,8 +17,8 @@
         <p class="portofolio">Portofolio</p>
       </div>
       <div class="icons">
-        <img src="./images/aboutme.jpg" alt="about me" />
-        <img src="./images/project.jpg" alt="project" />
+        <img id="imga" src="./images/aboutme.jpg" alt="about me" />
+        <img id="imgp" src="./images/project.jpg" alt="project" />
         <img id="imgc" src="./images/contact.jpg" alt="contact" />
       </div>
 
@@ -26,30 +27,36 @@
         <a href="#projects">Projects</a>
         <a href="contact.html">Contact</a>
       </nav>
-
-      <main>
-        <section id="aboutme">
-          <article>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quod,
-            quaerat culpa repellat veritatis, eos voluptatem voluptate commodi
-            sed possimus eum. Itaque fugiat eius quos deserunt, officiis iure
-            non exercitationem?
-          </article>
-
-          <div class="profile"><img src="./images/profile.jpg" alt="profile"></div>
-        </section>
-
-        <section id="projects">
-            <div class="grid">
-                
-            </div>
-        </section>
-      </main>
-
-      <footer>
-          <h2>If you like my portofolio please five me a thumbs up</h2>
-          <img src="./images/like.jpg" alt="like button">
-      </footer>
     </header>
+
+    <!-- main section -->
+
+    <main>
+      <!-- about me section -->
+      <section id="aboutme">
+        <div class="profile">
+          <img src="./images/profile.jpg" alt="profile" />
+        </div>
+        <article>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quod,
+          quaerat culpa repellat veritatis, eos voluptatem voluptate commodi sed
+          possimus eum. Itaque fugiat eius quos deserunt, officiis iure non
+          exercitationem?
+        </article>
+      </section>
+
+      <!-- project section -->
+
+      <section id="projects">
+        <div class="grid"></div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+
+    <footer>
+      <h2>If you like my portofolio please give me a thumb up!</h2>
+      <img src="./images/like.jpg" alt="like button" />
+    </footer>
   </body>
 </html>
