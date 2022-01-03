@@ -76,14 +76,21 @@ header {
 
 #imga {
   visibility: hidden;
+position: absolute;
+right: 11rem;
 }
 
 #imgp {
   visibility: hidden;
+position: absolute;
+right: 11rem;
+top:0.2rem;
 }
 
 #imgc {
   visibility: hidden;
+position: absolute;
+right: 11rem;
 }
 
 /* nav section */
@@ -91,7 +98,6 @@ header {
 nav {
   width: 20%;
   padding: 0.5rem;
-  border-left: 4px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +140,7 @@ main {
 
 /* project section */
 
-#projects {
+#projects,.cont{
   margin: 1rem 0rem;
   padding: 2rem;
   box-shadow: 0 5px 15px black;
@@ -172,6 +178,8 @@ footer h2 {
   font-size: 1.5rem;
   border-radius: 50%;
 }
+
+
 
 @media only screen and (max-width: 690px) {
  .icons {
