@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Website</title>
-    <link rel="stylesheet" href="./script/script.js" />
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <!-- heading section -->
     <header>
       <div class="left">
-        <p class="name">Iulian</p>
-        <p class="surname">Preuteasa</p>
-        <p class="portofolio">Portofolio</p>
+        <h4 class="name">Iulian</h4>
+        <h4 class="surname">Preuteasa</h4>
+        <h4 class="portofolio">Portofolio</h4>
       </div>
       <div class="icons">
         <img id="imga" src="./images/aboutme.jpg" alt="about me" />
@@ -23,9 +22,9 @@
       </div>
 
       <nav>
-        <a href="#aboutme">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a id="navabout" href="#aboutme">About Me</a>
+        <a id="navproject" href="#projects">Projects</a>
+        <a id="navcontact" href="contact.html">Contact</a>
       </nav>
     </header>
 
@@ -37,6 +36,7 @@
         <div class="profile">
           <img src="./images/profile.jpg" alt="profile" />
         </div>
+        <h2>About me</h2>
         <article>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quod,
           quaerat culpa repellat veritatis, eos voluptatem voluptate commodi sed
@@ -48,7 +48,15 @@
       <!-- project section -->
 
       <section id="projects">
-        <div class="grid"></div>
+        <h2>Projects</h2>
+        <div class="grid">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ad
+          sequi perspiciatis libero consectetur eaque mollitia delectus
+          dignissimos expedita consequuntur, omnis sit molestiae maxime esse
+          facere cupiditate. Praesentium asperiores aspernatur possimus cum
+          laudantium officiis quae, harum illum magni amet atque minus a
+          exercitationem esse est expedita officia blanditiis omnis voluptas!
+        </div>
       </section>
     </main>
 
@@ -56,7 +64,9 @@
 
     <footer>
       <h2>If you like my portofolio please give me a thumb up!</h2>
-      <img src="./images/like.jpg" alt="like button" />
+      <div id="likes">0</div>
+      <button id="footerimg">Like</button>
     </footer>
+    <script src="./script/script.js"></script>
   </body>
 </html>
